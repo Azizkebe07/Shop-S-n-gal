@@ -1,0 +1,40 @@
+.detail-produit{
+display:flex;
+gap:50px;
+padding:50px;
+align-items:center;
+}
+
+.image-produit img{
+width:400px;
+border-radius:10px;
+}
+
+.info-produit{
+max-width:500px;
+}
+
+.info-produit h2{
+color:#0a7c3b;
+margin-bottom:10px;
+}
+
+.info-produit .prix{
+font-size:22px;
+margin-bottom:15px;
+}
+
+.info-produit p{
+margin-bottom:20px;
+line-height:1.6;
+}
+
+.info-produit button{
+padding:12px 20px;
+border:none;
+background:#1fa45b;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
